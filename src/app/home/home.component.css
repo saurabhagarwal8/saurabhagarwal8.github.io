@@ -1,0 +1,52 @@
+#intro{
+    min-height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.404);
+    color: white;
+}
+
+#introtext{
+}
+
+#parallax{
+    background: url('https://backgroundcheckall.com/wp-content/uploads/2017/12/portfolio-background-images-1.jpg');
+}
+
+#saurabh{
+
+}
+
+#explore{
+    margin-top: 30px;
+    padding-bottom: 5px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.wrap{
+    color: white;
+}
+
+
+
+#about{
+    min-height: 100vh;
+    width: 100%;
+    
+}
+
+.aboutme{
+    font-size: 20px;
+}
+
+/*Skills*/
+
+#skills{
+}
+
+.skillpics{
+    background: url('http://2ality.com/2011/10/logo-js/js.jpg');
+    overflow: hidden;
+  
+}

@@ -1,20 +1,146 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
+ 
+ <!--Navbar-->
+
+<nav class="grey darken-4 navbar navbar-expand-lg navbar-fixed" id="navbar">
+  <div class="nav-wrapper">
+    <a href="#!" class="brand-logo">SA</a>
+    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    <ul class="right hide-on-med-and-down">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<ul class="sidenav" id="mobile-demo">
+  <li><a href="#home">Home</a></li>
+  <li><a href="#about">About</a></li>
+  <li><a href="#">Projects</a></li>
+  <li><a href="#">Contact</a></li>
 </ul>
 
+
+
+
+
+
+
+ <router-outlet></router-outlet>
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <!-- BootStrap
+ 
+ 
+ <nav class="navbar navbar-light navbar-expand-lg fixed-top shadow-sm bg-white"><a href="index.html" class="navbar-brand">Saurabh Agarwal</a>
+  <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+  <div id="navbarSupportedContent" class="collapse navbar-collapse">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+    </ul>
+    
+  </div>
+</nav>
+
+
+
+ <section class="bg-light py-5" >
+  <div class="container py-5" >
+    <div class="row">
+      <div class="col-lg-6 order-2 order-lg-1">
+        <h1>Hello! I am Saurabh Agarwal</h1>
+        <p class="lead">Hello!</p>
+        <p><a href="#" class="btn btn-outline-primary">Explore</a></p>
+      </div>
+      <div class="col-lg-6 order-1 order-lg-2"><img src="assets/me.jpg" alt="..." class="img-fluid"></div>
+    </div>
+  </div>
+</section>
+
+
+ 
+<section class="py-5">
+<div class="container">
+  <h2>About</h2>
+  <p class="lead">Hello, I am Saurabh Agarwal! An Undergrad Computer Science Engineering (2017-2021) student at SRM Institute of Science & Technology, Chennai. I love developing products such as web applications and softwares that provide an immersive, fluid and smooth experience to the end user with a stable backend functionality! </p>
+</div>  
+
+</section>
+
+
+
+
+      <section class="bg-light py-5">
+        <div class="container">
+          <h2>Projects</h2>
+          <p class="lead text-muted mb-5">In enim non sit irure ut adipisicing laboris et laborum.</p>
+          <div class="row">
+            <div class="col-md-4 mb-4">
+              <div class="card shadow border-0 h-100"><a href="#"><img src="img/mockup0.jpg" alt="" class="card-img-top"></a>
+                <div class="card-body">
+                  <h5> <a href="#" class="text-dark">Ex cupidatat eu</a></h5>
+                  <p class="text-muted card-text">Ex cupidatat eu officia consequat incididunt labore occaecat ut veniam labore et cillum id et.</p>
+                  <p class="card-text"><a href="#">Read more</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card shadow border-0 h-100"><a href="#"><img src="img/mockup1.jpg" alt="" class="card-img-top"></a>
+                <div class="card-body">
+                  <h5> <a href="#" class="text-dark">Tempor aute occaecat</a></h5>
+                  <p class="text-muted card-text">Tempor aute occaecat pariatur esse aute amet.</p>
+                  <p class="card-text"><a href="#">Read more</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card shadow border-0 h-100"><a href="#"><img src="img/mockup2.jpg" alt="" class="card-img-top"></a>
+                <div class="card-body">
+                  <h5> <a href="#" class="text-dark">Voluptate ex irure</a></h5>
+                  <p class="text-muted card-text">Voluptate ex irure ipsum ipsum ullamco ipsum reprehenderit non ut mollit commodo.</p>
+                  <p class="card-text"><a href="#">Read more</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card shadow border-0 h-100"><a href="#"><img src="img/mockup3.jpg" alt="" class="card-img-top"></a>
+                <div class="card-body">
+                  <h5> <a href="#" class="text-dark">Tempor commodo</a></h5>
+                  <p class="text-muted card-text">Tempor commodo nostrud ex Lorem occaecat duis occaecat minim.</p>
+                  <p class="card-text"><a href="#">Read more</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card shadow border-0 h-100"><a href="#"><img src="img/mockup4.jpg" alt="" class="card-img-top"></a>
+                <div class="card-body">
+                  <h5> <a href="#" class="text-dark">Et fugiat sint occaecat</a></h5>
+                  <p class="text-muted card-text">Et fugiat sint occaecat voluptate incididunt anim nostrud ea cillum cillum consequat.</p>
+                  <p class="card-text"><a href="#">Read more</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card shadow border-0 h-100"><a href="#"><img src="img/mockup5.jpg" alt="" class="card-img-top"></a>
+                <div class="card-body">
+                  <h5> <a href="#" class="text-dark">Et labore tempor et</a></h5>
+                  <p class="text-muted card-text">Et labore tempor et adipisicing dolor.</p>
+                  <p class="card-text"><a href="#">Read more</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    -->
